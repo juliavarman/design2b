@@ -1,0 +1,225 @@
+
+h2{
+margin-top: 10px;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: black;
+  --color-secondary: white;
+  --color-tertiary: red;
+  --color-quaternary: blue;
+  --color-quinary: green;
+  --color-sextary:gray;
+}
+
+body {
+  min-height: 20vh;
+  font-weight: 200;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #eff8e2;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text-shadows {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+  animation: shadows 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    transform: translate(-3px, -3px);
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    transform: translate(-6px, -6px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    transform: translate(-9px, -9px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+/*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+*/
+
+
+body{
+ background: url("https://thumbs.gfycat.com/BlackEcstaticFishingcat-max-1mb.gif");
+}
+
+
+#whitesquare{
+  position: absolute;
+  margin-top: 460px;
+  margin-left:655px
+}
+
+
+
+
+
+}
+
+h1 {
+ text-align:center;
+margin: auto;
+margin-top: 100px;
+color:whitesmoke;
+
+
+/* -webkit-transform: rotate(360deg) scale(2);
+  transform: rotate(360deg) scale(2);*/*/
+  cursor: pointer;
+ }
+
+ #container-1 {
+position: absolute;
+bottom: 0;
+
+ }
+
+
+#blueflower {
+ 	position: absolute;
+ 	top: 22vh;
+ 	left: 43vw;
+}
+
+
+#square {
+ 	position: absolute;
+ 	top: 57vh;
+
+ 	left: 45.7vw;
+}
+
+
+#square2 {
+ 	position: absolute;
+ 	top: 57vh;
+
+ 	left: 50.4vw;
+}
+
+
+
+
+
+
+
+
+}
+
+#container-1{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	width: 100vw;
+} 
+
+#container-3 {
+	margin: auto;
+	text-align: center;
+} 	
+
+#container-2 {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 60vh;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+	color:lightblue;
+}
+
+a {
+	padding: 5px;
+	text-align: center;
+	color:black;
+	font-weight: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
